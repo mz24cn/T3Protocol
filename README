@@ -1,7 +1,9 @@
 T3Protocol
 
-This is a sample code to demonstrate how to 'hack'(capture and modify) T3 protocol based java RMI stream. 
-The code discloses T3 protocol stream format. Compared with java standard serialization mechanism, 
-T3 protocol only transfers object field data, the class schema information are kept both in local and 
-remote side stacks and are transfered only once. So, T3 protocol has higher efficiency than standard RMI
-protocol.    
+This is a sample code to demonstrate how to HACK (capture and modify) weblogic T3 protocol based java RMI stream.
+ 
+The code discloses T3 protocol stream format. Compared with java standard serialization mechanism, T3 protocol only transfers object field data, the class schema information are kept both in local and remote side stacks and are transfered only once. So, T3 protocol has higher efficiency than standard RMI protocol.    
+
+The code can recovery the object instances from stream, modify them, and rebuild stream data (byte arrays).
+
+The code is used ONLY for research. The author does not take any responsibility for the usage of the code.
